@@ -1,2 +1,2 @@
-CV Daniel Garia Yusteç
+CV Daniel Garia Yuste
 
