@@ -1,0 +1,28 @@
+/* ==========================================================================
+   print.css · Versión limpia para "Guardar como PDF"
+   ========================================================================== */
+@page { margin: 14mm; }
+
+:root, [data-theme] {
+  --bg: #fff; --bg-alt: #fff; --surface: #fff; --surface-2: #f3f4f8;
+  --text: #111; --muted: #444; --border: #d5d7e0; --shadow: none;
+}
+body { background: #fff; color: #111; font-size: 11pt; }
+
+.bg-decor, #progress, .site-header, .skip-link, #to-top, .site-footer,
+.btn-row, .socials, .float-card, .form, .hero-visual .avatar-ring + *,
+#contacto .contact-wrap > .card:last-child { display: none !important; }
+
+.reveal { opacity: 1 !important; transform: none !important; }
+.bar > i { width: var(--w) !important; }
+.grad-text { color: #4f5df0; background: none; -webkit-text-fill-color: #4f5df0; }
+
+section { padding: 18px 0 !important; break-inside: avoid-page; }
+.hero { min-height: auto; padding: 0 0 10px !important; }
+.hero-grid { grid-template-columns: 1fr 140px; gap: 24px; }
+.avatar-ring { width: 130px; box-shadow: none; }
+.card { box-shadow: none; border: 1px solid var(--border); break-inside: avoid; }
+.contact-info { background: #fff; color: #111; border: 1px solid var(--border); }
+.contact-list a, .contact-list div { background: #f3f4f8; }
+.thumb { height: 60px; }
+.thumb .icon { width: 30px; height: 30px; }
